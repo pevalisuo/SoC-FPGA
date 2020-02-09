@@ -19,3 +19,6 @@ init: force
 	$(GHDL) -a $(GHDLFLAGS) caesar_tb.vhdl
 
 force:
+
+memory:
+	gcc memory.c -o memory
