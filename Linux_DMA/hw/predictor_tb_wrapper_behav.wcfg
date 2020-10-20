@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="predictor_tb_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="predictor_tb_wrapper" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="110000fs"></ZoomStartTime>
+      <ZoomEndTime time="318401fs"></ZoomEndTime>
+      <Cursor1Time time="221067fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="221"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/aresetn">
+      <obj_property name="ElementShortName">aresetn</obj_property>
+      <obj_property name="ObjectShortName">aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/s00_axis_tready">
+      <obj_property name="ElementShortName">s00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/s00_axis_tdata">
+      <obj_property name="ElementShortName">s00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/s00_axis_tlast">
+      <obj_property name="ElementShortName">s00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/s00_axis_tvalid">
+      <obj_property name="ElementShortName">s00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/m00_axis_tvalid">
+      <obj_property name="ElementShortName">m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/m00_axis_tdata">
+      <obj_property name="ElementShortName">m00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/m00_axis_tlast">
+      <obj_property name="ElementShortName">m00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/m00_axis_tready">
+      <obj_property name="ElementShortName">m00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output">
+      <obj_property name="ElementShortName">output[0:10][31:0]</obj_property>
+      <obj_property name="ObjectShortName">output[0:10][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[0]">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[1]">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[2]">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[3]">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[4]">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[5]">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[6]">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[7]">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[8]">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[9]">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/AXIFIFOtestgen_0/U0/output[10]">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/predictor_0_m00_axis_TDATA">
+      <obj_property name="ElementShortName">predictor_0_m00_axis_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">predictor_0_m00_axis_TDATA[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/predictor_0_m00_axis_TLAST">
+      <obj_property name="ElementShortName">predictor_0_m00_axis_TLAST</obj_property>
+      <obj_property name="ObjectShortName">predictor_0_m00_axis_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/predictor_tb_wrapper/predictor_tb_i/predictor_0_m00_axis_TREADY">
+      <obj_property name="ElementShortName">predictor_0_m00_axis_TREADY</obj_property>
+      <obj_property name="ObjectShortName">predictor_0_m00_axis_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/predictor_tb_wrapper/predictor_tb_i/predictor_0_m00_axis_TSTRB">
+      <obj_property name="ElementShortName">predictor_0_m00_axis_TSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">predictor_0_m00_axis_TSTRB[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/predictor_tb_wrapper/predictor_tb_i/predictor_0/U0/samplecount">
+      <obj_property name="ElementShortName">samplecount</obj_property>
+      <obj_property name="ObjectShortName">samplecount</obj_property>
+   </wvobject>
+</wave_config>
